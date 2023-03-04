@@ -1,8 +1,8 @@
-package com.daruo.springboormall.dao.impl;
+package com.daruo.springbootmall.dao.impl;
 
-import com.daruo.springboormall.dao.ProductDao;
-import com.daruo.springboormall.model.Product;
-import com.daruo.springboormall.rowmapper.ProductRowMapper;
+import com.daruo.springbootmall.dao.ProductDao;
+import com.daruo.springbootmall.model.Product;
+import com.daruo.springbootmall.rowmapper.ProductRowMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.stereotype.Component;

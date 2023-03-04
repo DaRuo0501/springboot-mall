@@ -1,13 +1,13 @@
-package com.daruo.springboormall;
+package com.daruo.springbootmall;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringboorMallApplication {
+public class SpringbootMallApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringboorMallApplication.class, args);
+        SpringApplication.run(SpringbootMallApplication.class, args);
     }
 
 }

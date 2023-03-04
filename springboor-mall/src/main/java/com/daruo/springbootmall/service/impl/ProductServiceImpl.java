@@ -1,8 +1,8 @@
-package com.daruo.springboormall.service.impl;
+package com.daruo.springbootmall.service.impl;
 
-import com.daruo.springboormall.dao.ProductDao;
-import com.daruo.springboormall.model.Product;
-import com.daruo.springboormall.service.ProductService;
+import com.daruo.springbootmall.dao.ProductDao;
+import com.daruo.springbootmall.model.Product;
+import com.daruo.springbootmall.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
