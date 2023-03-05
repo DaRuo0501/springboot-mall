@@ -1,6 +1,7 @@
 package com.daruo.springbootmall.controller;
 
 import com.daruo.springbootmall.constant.ProductCategory;
+import com.daruo.springbootmall.dto.ProductQueryParams;
 import com.daruo.springbootmall.dto.ProductRequest;
 import com.daruo.springbootmall.model.Product;
 import com.daruo.springbootmall.service.ProductService;
@@ -24,7 +25,11 @@ public class ProductController {
             @RequestParam(required = false) String search
     ) {
 
-        List<Product> productList = productService.getProducts(category, search);
+        ProductQueryParams productQueryParams = new ProductQueryParams();
+        productQueryParams.setCategory(category);
+        productQueryParams.setSearch(search);
+
+        List<Product> productList = productService.getProducts(productQueryParams);
 
         return ResponseEntity.status(HttpStatus.OK).body(productList);
     }
