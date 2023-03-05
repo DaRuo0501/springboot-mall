@@ -3,7 +3,11 @@ package com.daruo.springbootmall.service;
 import com.daruo.springbootmall.dto.ProductRequest;
 import com.daruo.springbootmall.model.Product;
 
+import java.util.List;
+
 public interface ProductService {
+
+    List<Product> getProducts();
 
     Product getProductById(Integer productId);
 
